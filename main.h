@@ -7,9 +7,13 @@
 #include <stdio.h>
 
 #include <unistd.h>
-
-
-
+/**
+ * struct flags - struct containing flags to "turn on"
+ * when a flag specifier is passed to _printf()
+ * @plus: flag for the '+' character
+ * @space: flag for the ' ' character
+ * @hash: flag for the '#' character
+ */
 #define UNUSED(x) (void)(x)
 
 #define BUFF_SIZE 1024
@@ -77,7 +81,7 @@ va_list list, char buffer[], int flags, int width, int precision, int size);
 
 
 
-/****************** FUNCTIONS ******************/
+/*********** FUNCTIONS *************/
 
 
 

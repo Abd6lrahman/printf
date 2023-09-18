@@ -1,10 +1,10 @@
 #include "main.h"
-void print_buffer(char buffer[], int *buff_ind);
-/**
- * _printf - Printf function
- * @format: format.
- * Return: Printed chars.
- */
+void print_buffer(char buffer[], int *buff_ind)
+;/**
+ * _printf - printf function
+ * @format: const char pointer
+ * Return: b_len
+ *//
 int _printf(const char *format, ...)
 
 {
